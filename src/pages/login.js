@@ -33,13 +33,14 @@ export default function Login() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if ((profile.userName == usuario) && (profile.password == password)) {
-            sweetAlert(1, 'Login exitoso');
+        if (profile.userName == usuario && profile.password == password) {
+            sweetAlert(1, "Login exitoso");
             setUpdate({
-                ...profile,login: true
+                ...profile,
+                login: true,
             });
-        }else{
-            sweetAlert(2, 'La contraseña o el usuario no son correctos');
+        } else {
+            sweetAlert(2, "La contraseña o el usuario no son correctos");
         }
     };
 
@@ -116,6 +117,9 @@ export default function Login() {
                             Olvide mi contraseña
                         </Link>
                     </div>
+                    <Link href={"/registro"} className={"secundary-text "+ styles.createC}>
+                        Crear una cuenta
+                    </Link>
                 </div>
             </div>
         </Layout>
