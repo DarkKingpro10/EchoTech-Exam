@@ -57,6 +57,7 @@ export default function Registro() {
             setUpdate({
                 ...profile, password: password
             });
+            router.push("/login");
         }else{
             sweetAlert(2, 'La contraseña o el PIN no son correctos');
         }
