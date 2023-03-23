@@ -1,0 +1,51 @@
+.info {
+    background-color: #019fe2;
+    margin-top: 10%;
+    border-radius: 25px;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    position: relative !important;
+    height: 250px;
+}
+
+.form {
+    position: relative;
+    top: -50px;
+}
+
+.form input {
+    margin: 10px 0;
+}
+
+.contenedorRB {
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    background-color: #e5e7eb;
+    border-radius: 0.75rem;
+}
+
+.confirmContainer{
+    position: relative;
+    right: 25px !important;
+    display: flex;
+    justify-content: center;
+}
+
+.eyePass{
+    position: relative;
+    margin: 0 0 0 70%;
+    cursor: pointer;
+}
+
+/*Telefonos*/
+@media (max-width: 600px) {
+    .eyePass{
+        margin-left: 45%;
+    }
+}

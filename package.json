@@ -1,0 +1,20 @@
+{
+  "name": "examen-echo-tech",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2",
+    "next": "13.2.4",
+    "nprogress": "^0.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-multi-carousel": "^2.8.2",
+    "sweetalert2": "^11.7.3"
+  }
+}

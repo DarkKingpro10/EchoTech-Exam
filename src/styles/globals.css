@@ -1,0 +1,483 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap");
+
+html,
+body,
+body > div:first-child,
+div#__next,
+div#__next > div {
+    height: "100%";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nprogress .bar {
+    background: #ff5367 !important;
+}
+
+#nprogress .spinner-icon {
+    border-top-color: white !important;
+    border-left-color: white !important;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "League Spartan", sans-serif;
+}
+
+.primary-color {
+    background-color: #030154 !important;
+    color: white !important;
+}
+
+.secundary-color {
+    background-color: #019fe2 !important;
+    color: white !important;
+}
+
+.primary-text {
+    color: white;
+}
+
+.secundary-text {
+    color: #030154;
+}
+
+.third-text {
+    color: #019fe2;
+}
+
+.btn-nav {
+    margin-top: 10% !important;
+    background-color: #030154 !important;
+    border: 2px solid #019fe2 !important;
+    border-radius: 10px !important;
+    min-width: 150px !important;
+}
+
+.btn-nav-profile {
+    margin-top: 10% !important;
+    background-color: #030154 !important;
+    border-bottom: 3px solid #019fe2 !important;
+    border-radius: 10px !important;
+    min-width: 150px !important;
+}
+
+.btn-nav-profile:hover {
+    margin-top: 10% !important;
+    background-color: #030154 !important;
+    border-top: 3px solid #019fe2 !important;
+    border-bottom: 0px !important;
+    border-radius: 10px !important;
+    min-width: 150px !important;
+    transition: all ease-in-out 0.1s;
+}
+
+.btn-nav:hover {
+    margin-top: 10% !important;
+    background-color: #019fe2 !important;
+    border: 2px solid #030154 !important;
+    border-radius: 10px !important;
+    min-width: 150px !important;
+    scale: 1.1;
+}
+
+.active {
+    background-color: #019fe2 !important;
+}
+
+/*Estilos responsivos*/
+/*Telefonos*/
+@media (max-width: 600px) {
+    .nav-btn-container {
+        position: relative;
+        top: -100px !important;
+    }
+
+    .inputs-containerL{
+      margin-bottom: 25px;
+    }
+}
+/*Tablets*/
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    .nav-btn-container {
+        position: relative;
+        top: -125px !important;
+    }
+}
+
+.form-element input {
+    box-sizing: border-box;
+    font-family: inherit;
+    padding: 16px 20px 0 20px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #030154;
+    color: #ffffff;
+}
+
+.form-element .secundaryInput{
+  box-sizing: border-box;
+  font-family: inherit;
+  padding: 16px 20px 0 20px;
+  height: 50px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: #540101 !important;
+  color: #ffffff;
+}
+
+.botones-confirm {
+  height: 50px;
+    background-color: #019fe2 !important;
+    color: #030154;
+    border-radius: 10px !important;
+    min-width: 150px !important;
+}
+
+
+.botones-confirm:hover {
+    height: 50px;
+    background-color: #019fe2 !important;
+    color: #030154;
+    font-weight: bolder;
+    border-radius: 10px !important;
+    min-width: 150px !important;
+    scale: 0.9;
+}
+
+.image-RB{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 25px;
+  color: black;
+}
+
+.activeRB{
+  background-color: #2196f3 ;
+  color: white;
+}
+
+.image-RB:hover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #019fe2;
+  height: 50px;
+  border-radius: 25px;
+}
+
+/*404 style*/
+#notFound404 {
+  overflow: hidden;
+  background-color: #F1F5F9;
+}
+
+#notFound404 .container {
+  width: 100vw;
+  height: 100vh;
+  margin-top: -80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  left: 0vmin;
+  text-align: center;
+}
+
+#notFound404 .cog-wheel1 {
+  transform: scale(0.6);
+  margin-left: -10px;
+  margin-right: -50px;
+}
+
+#notFound404 .cog-wheel2 {
+  transform: scale(0.6);
+  margin-left: -10px;
+  margin-right: -50px;
+}
+
+#notFound404 .cog1 {
+  width: 40vmin;
+  height: 40vmin;
+  border-radius: 50%;
+  border: 6vmin solid #019fe2;
+  position: relative;
+}
+
+#notFound404 .cog2 {
+  width: 40vmin;
+  height: 40vmin;
+  border-radius: 50%;
+  border: 6vmin solid #019fe2;
+  position: relative;
+}
+
+#notFound404 .cog2 {
+  border: 6vmin solid #019fe2;
+}
+
+#notFound404 .top {
+  top: -14vmin;
+  left: 9vmin;
+  width: 10vmin;
+  height: 10vmin;
+  background-color: #019fe2;
+  position: absolute;
+}
+
+#notFound404 .down {
+  bottom: -14vmin;
+  left: 9vmin;
+  width: 10vmin;
+  height: 10vmin;
+  background-color: #019fe2;
+  position: absolute;
+}
+
+#notFound404 .left {
+  left: -14vmin;
+  top: 9vmin;
+  width: 10vmin;
+  height: 10vmin;
+  background-color: #019fe2;
+  position: absolute;
+}
+
+#notFound404 .right {
+  right: -14vmin;
+  top: 9vmin;
+  width: 10vmin;
+  height: 10vmin;
+  background-color: #019fe2;
+  position: absolute;
+}
+
+#notFound404 .left-top {
+  transform: rotateZ(-45deg);
+  left: -8vmin;
+  top: -8vmin;
+  width: 10vmin;
+  height: 10vmin;
+  background-color: #019fe2;
+  position: absolute;
+}
+
+#notFound404 .left-down {
+  transform: rotateZ(45deg);
+  left: -8vmin;
+  top: 25vmin;
+  width: 10vmin;
+  height: 10vmin;
+  background-color: #019fe2;
+  position: absolute;
+}
+
+#notFound404 .right-top {
+  transform: rotateZ(45deg);
+  right: -8vmin;
+  top: -8vmin;
+  width: 10vmin;
+  height: 10vmin;
+  background-color: #019fe2;
+  position: absolute;
+}
+
+#notFound404 .right-down {
+  transform: rotateZ(-45deg);
+  right: -8vmin;
+  top: 25vmin;
+  width: 10vmin;
+  height: 10vmin;
+  background-color: #019fe2;
+  position: absolute;
+}
+
+#notFound404 .cog2 {
+  position: relative;
+  left: -10.2vmin;
+  bottom: 10vmin;
+}
+
+#notFound404 h1 {
+  color: #142833;
+}
+
+#notFound404 .first-four {
+  position: relative;
+  left: 10vmin;
+  font-size: 40vmin;
+}
+
+#notFound404 .second-four {
+  position: relative;
+  right: 15vmin;
+  z-index: -1;
+  font-size: 40vmin;
+  color: #142833;
+}
+
+#notFound404 .wrong-para {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  margin-top: -10%;
+}
+
+#notFound404 #Regresar {
+  font-family: 'Poppins', sans-serif;
+  background-color: #030154;
+  color: white;
+  border-radius: 5px;
+  margin-top: 5%;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+  #notFound404 .cog-wheel1 {
+    transform: scale(0.7);
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  #notFound404 .cog-wheel2 {
+    transform: scale(0.7);
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  #notFound404 .second-four {
+    position: relative;
+    right: 22vmin;
+    z-index: -1;
+    font-size: 40vmin;
+    color: #142833;
+  }
+
+  #notFound404 .first-four {
+    position: relative;
+    left: 10vmin;
+    font-size: 40vmin;
+  }
+
+  #notFound404 .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    left: 6vmin;
+    text-align: center;
+  }
+
+  #notFound404 .wrong-para {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -10%;
+  }
+
+  #notFound404 #Regresar {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F4A172;
+    color: white;
+    border-radius: 5px;
+    margin-top: 5%;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 600px) {
+  #notFound404 .cog-wheel1 {
+    transform: scale(0.7);
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  #notFound404 .cog-wheel2 {
+    transform: scale(0.7);
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  #notFound404 .second-four {
+    position: relative;
+    right: 22vmin;
+    z-index: -1;
+    font-size: 40vmin;
+    color: #142833;
+  }
+
+  #notFound404 .first-four {
+    position: relative;
+    left: 10vmin;
+    font-size: 40vmin;
+  }
+
+  #notFound404 .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    left: 6vmin;
+    text-align: center;
+  }
+
+  #notFound404 .wrong-para {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -40%;
+  }
+
+  #notFound404 #Regresar {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F4A172;
+    color: white;
+    border-radius: 5px;
+    margin-top: 5%;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+  }
+}
+
+.carousel-container{
+  border: 2px solid #030154;
+  border-radius: 5px;
+}
+
+.react-multiple-carousel__arrow{
+  top: 40% !important;
+  background: #030154 !important;
+}
+
+.react-multiple-carousel__arrow--left{
+  left: calc(1% + 1px) !important;
+}
+
+.react-multiple-carousel__arrow:active,.react-multiple-carousel__arrow:visited{
+  background: #030154 !important;
+}
+
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after{
+  background-color: #030154 !important
+}

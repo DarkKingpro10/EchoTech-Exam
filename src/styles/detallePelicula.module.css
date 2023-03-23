@@ -1,0 +1,83 @@
+.banner {
+    display: flex;
+    position: relative !important;
+    background: #019fe2;
+    height: 80px !important;
+
+    font-size: 200%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.detailContent {
+    padding-top: 100px;
+}
+
+.img_padding {
+    padding: 25px !important;
+    background-color: #030154;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 15% !important;
+    top: 60px !important;
+    border-radius: 10px;
+}
+
+.li_decoration {
+    list-style: circle !important;
+    margin-left: 15px;
+}
+
+.infoContainer {
+    background: #019fe2;
+    margin-right: 15px;
+    height: auto;
+    padding: 50px !important;
+    border-radius: 25px;
+}
+
+/*Telefonos*/
+@media screen and (min-width: 100px) and (max-width: 600px) {
+    .infoContainer {
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+
+    .img_padding{
+        left: 0 !important;
+        top: 0 !important;
+    }
+}
+/*Tablets*/
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .infoContainer {
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+
+    .img_padding{
+        left: 0 !important;
+        top: 0 !important;
+    }
+}
+
+.valoracion{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: green;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: x-large;
+}

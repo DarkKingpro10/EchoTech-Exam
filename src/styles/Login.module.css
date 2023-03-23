@@ -1,0 +1,46 @@
+.logoContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    position: relative !important;
+    top: -50px !important;
+}
+.banner {
+    display: flex;
+    position:  relative !important;
+    background: #019FE2;
+    width: 100% !important;
+    height: 100px !important;
+    top: -125px;
+    font-size: 350%;
+    align-items: center;
+    justify-content: center;
+}
+.formContainer{
+    position: relative !important;
+    top: -125px;
+}
+
+.confirmContainer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.forgotP{
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.forgotP:hover{
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+
+.eyePass{
+    margin: 5px 0 0 40%;
+    cursor: pointer;
+}

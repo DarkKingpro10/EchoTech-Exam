@@ -1,0 +1,83 @@
+.banner {
+    display: flex;
+    position: relative !important;
+    background: #019fe2;
+    height: 80px !important;
+    top: 50px !important;
+    font-size: 200%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.search{
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #030154;
+    color: white;
+    width: 45px !important;
+    height: 45px;
+    margin-left: 4% !important;
+}
+
+/*Telefono*/
+@media (max-width: 600px) {
+    .banner{
+        margin-bottom: 10px;
+    }
+
+    .containerMovies{
+        position: relative;
+        left: calc(7% - 6px) !important;
+    }
+}
+
+/*Tablets*/
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    .banner{
+        margin-bottom: 10px;
+    }
+    .movie_card{
+        width: 250px !important;
+    }
+}
+
+
+.movie_card {
+    background-color: #030154;
+    width: 300px;
+    height: 350px;
+    padding: 10px 0px;
+    margin: 10px 10px 25px 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: start;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.img_movie {
+    width: 220px;
+    height: 300px;
+}
+
+.img_movie:hover {
+    scale: 1.4;
+}
+
+.movie_title {
+    z-index: 1;
+    color: white;
+    position: absolute;
+    margin-top: 310px;
+    font-size: 14pt;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 220px;
+    text-align: center;
+}

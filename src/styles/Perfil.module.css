@@ -1,0 +1,84 @@
+.info {
+    background-color: #019fe2;
+    margin-top: 10%;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    position: relative !important;
+    height: 250px;
+}
+
+.form {
+    position: relative;
+    top: -50px;
+}
+
+.form input {
+    margin: 10px 0;
+}
+
+.contenedorRB {
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    background-color: #e5e7eb;
+    border-radius: 0.75rem;
+}
+
+.confirmContainer{
+    position: relative;
+    right: 25px !important;
+    display: flex;
+    justify-content: center;
+}
+
+.eyePass{
+    position: relative;
+    margin: 0 0 0 70%;
+    cursor: pointer;
+}
+
+/*Telefonos*/
+@media (max-width: 600px) {
+    .eyePass{
+        margin-left: 45%;
+    }
+}
+
+.profilePicture{
+    margin-top: 25px;
+}
+
+.btnReiniciar {
+    margin: 25px 0 25px 25%;
+    box-sizing: border-box;
+    font-family: inherit;
+    padding: 0px 20px 0 20px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #540101;
+    color: #ffffff;
+}
+
+.btnReiniciar:active,
+.btnReiniciar:visited,
+.btnReiniciar:hover {
+    box-sizing: border-box;
+    font-family: inherit;
+    padding: 0px 20px 0 20px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    scale: 1.3;
+    background-color: #540101 !important;
+    color: #ffffff;
+}

@@ -1,0 +1,55 @@
+.slide_card {
+    background-color: #019fe2;
+    width: 300px;
+    height: 350px;
+    padding: 10px 0px;
+    margin: 10px 10px 25px 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: start;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.img_slide {
+    width: 220px;
+    height: 300px;
+}
+
+.img_slide:hover {
+    scale: 1.4;
+}
+
+.slide_title {
+    z-index: 1;
+    color: white;
+    position: absolute;
+    margin-top: 310px;
+    font-size: 14pt;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 220px;
+    text-align: center;
+}
+
+/*Telefonos*/
+@media (max-width: 600px) {
+    .containerSlide{
+        position: relative;
+        left: calc(7% - 6px) !important;
+    }
+}
+
+/*Tablets*/
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    .slide_card{
+        width: 250px;
+    }
+
+    .containerSlide{
+        position: relative;
+        left: calc(1% - 5px) !important;
+    }
+}
