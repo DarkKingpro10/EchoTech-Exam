@@ -56,7 +56,7 @@ export default function Registro() {
             sweetAlert(1, 'Cambio exitoso');
             setUpdate({
                 ...profile, password: password
-            });
+            });//Aqui se corrije bug
             router.push("/login");
         }else{
             sweetAlert(2, 'La contraseña o el PIN no son correctos');
