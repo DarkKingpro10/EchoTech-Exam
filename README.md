@@ -38,3 +38,6 @@ Proyecto construido con NextJs12 y React 18.2
 Usando dependencias como Materialize y SweetAlert
 
 Uso de context para almacenar el usuario lo que limita a recarga
+
+🔒️ PARA CAMBIAR LA CLAVE
+Es necesario un PIN esto lo realice de esta forma para simular la validación de un terciario en cuestión de seguridad, dicho PIN es Root1L
