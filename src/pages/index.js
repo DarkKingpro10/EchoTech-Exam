@@ -135,7 +135,7 @@ export default function Index({ movies, statusCode }) {
                         }}
                         key={key}
                         className={"col s12 l4 m6 " + styles.containerMovies}
-                        //as={'detallePelicula/'+movie.title}
+                        as={'detallePelicula/'+movie.title}
                     >
                         <div className={styles.movie_card}>
                             <span className={styles.movie_title}>
