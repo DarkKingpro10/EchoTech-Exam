@@ -3,7 +3,6 @@ import { useRouter } from "next/router";
 import { useEffect } from "react";
 import { useProfile } from "../context/profileContext";
 import styles from "../styles/NavBar.module.css";
-import Image from "next/image";
 const isActive = (URL, pageName) => {
     const router = useRouter();
     if (router.asPath.includes(URL) && pageName != "Inicio") {
@@ -62,7 +61,7 @@ function LoginLinks(profile) {
             </li>
             <li>
                 <Link href={"/perfil"}>
-                    <Image
+                    <img
                         src={`/profile${profile.image}.jpg`}
                         width="60"
                         height="60"

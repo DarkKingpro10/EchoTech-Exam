@@ -3,7 +3,6 @@ import { useRouter } from "next/router";
 import Layout from "../components/Layout";
 import { useProfile } from "../context/profileContext";
 import styles from "../styles/Login.module.css";
-import Image from "next/image";
 import Logo from "../../public/logo.png";
 import Link from "next/link";
 import sweetAlert from "@/components/SweetAlert";
@@ -50,8 +49,8 @@ export default function Login() {
                 <div
                     className={"col l12 offset-m2 m12 " + styles.logoContainer}
                 >
-                    <Image
-                        src={Logo}
+                    <img
+                        src="/logo.png"
                         className={styles.logo}
                         alt="Logo company"
                     />

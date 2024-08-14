@@ -1,8 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
-import navIcon from "../../public/navBar-icon.png";
 import logo from "../../public/logo.png";
 import styles from "../styles/NavBar.module.css";
 import ActiveLink from "./ActiveLinks";
@@ -20,11 +18,10 @@ export default function NavBar() {
             <nav>
                 <div className={styles.nav + " nav-wrapper primary-color"}>
                     <Link href={"/"}>
-                        <Image
-                            src={navIcon}
+                        <img
+                            src="/navBar-icon.png"
                             className={styles.navIcon + " hide-on-small-only"}
                             alt="NavBar icon"
-                            priority
                         />
                     </Link>
                     <a href="/" className={"brand-logo " + styles.branLogo}>
@@ -46,7 +43,7 @@ export default function NavBar() {
 
             <ul className="sidenav" id="mobile-demo">
                 <Link href={"/"}>
-                    <Image
+                    <img
                         src={logo}
                         className={"responsive-image " + styles.logoMobile}
                         alt="NavBar icon"

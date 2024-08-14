@@ -4,7 +4,7 @@ const nextConfig = {
   env: {
     API_KEY: process.env.API_KEY,
     IMG_ROUTE: process.env.IMG_ROUTE
-  }
+  },
 }
 
 module.exports = nextConfig

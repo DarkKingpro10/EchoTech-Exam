@@ -4,7 +4,6 @@ import Layout from "../components/Layout";
 import { useProfile } from "../context/profileContext";
 import sweetAlert, { confirmationSwal } from "@/components/SweetAlert";
 import styles from "../styles/Perfil.module.css";
-import Image from "next/image";
 import registerIMG from "../../public/registerImage.png";
 import Logo from "../../public/logo.png";
 import profile1 from "../../public/profile1.jpg";
@@ -77,7 +76,7 @@ export default function Perfil() {
         <Layout title="Perfil">
             <div className="row">
                 <div className={"col l5 s12  " + styles.info}>
-                    <Image
+                    <img
                         src={`/profile${profile.image}.jpg`}
                         width={"200"}
                         height={"200"}
@@ -108,8 +107,8 @@ export default function Perfil() {
                                 styles.logoContainer
                             }
                         >
-                            <Image
-                                src={Logo}
+                            <img
+                                src={"logo.png"}
                                 className={styles.logo}
                                 alt="Logo company"
                             />
@@ -167,23 +166,23 @@ export default function Perfil() {
                                 </h6>
                                 <div className="row">
                                     <div className="col s4">
-                                        <Image
+                                        <img
                                             alt="Profile picture 2"
-                                            src={profile1}
+                                            src={"profile1.jpg"}
                                             className="responsive-img"
                                         />
                                     </div>
                                     <div className="col s4">
-                                        <Image
+                                        <img
                                             alt="Profile picture 2"
-                                            src={profile2}
+                                            src={"profile2.jpg"}
                                             className="responsive-img"
                                         />
                                     </div>
                                     <div className="col s4">
-                                        <Image
+                                        <img
                                             alt="Profile picture 3"
-                                            src={profile3}
+                                            src={"profile3.jpg"}
                                             className={
                                                 "responsive-img " +
                                                 styles.profileIMG

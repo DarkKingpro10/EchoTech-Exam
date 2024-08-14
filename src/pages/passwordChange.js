@@ -4,7 +4,6 @@ import Layout from "../components/Layout";
 import { useProfile } from "../context/profileContext";
 import sweetAlert, { confirmationSwal } from "@/components/SweetAlert";
 import styles from "../styles/PassWordChange.module.css";
-import Image from "next/image";
 import Logo from "../../public/logo.png";
 
 export default function Registro() {
@@ -14,7 +13,7 @@ export default function Registro() {
         if (profile.login) {
             router.push("/");
         }
-    } catch (e) {}
+    } catch (e) { }
 
     const [usuario, setUsuario] = useState("");
     const [password, setPassword] = useState("");
@@ -49,7 +48,7 @@ export default function Registro() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        if((profile.password == password)){
+        if ((profile.password == password)) {
             sweetAlert(3, '¡Has recordado tu contraseña!, esa es tu contraseña');
         }
         else if ((profile.userName == usuario) && (PIN_Password == PIN)) {
@@ -58,7 +57,7 @@ export default function Registro() {
                 ...profile, password: password
             });//Aqui se corrije bug
             router.push("/login");
-        }else{
+        } else {
             sweetAlert(2, 'La contraseña o el PIN no son correctos');
         }
     };
@@ -91,8 +90,8 @@ export default function Registro() {
                                 styles.logoContainer
                             }
                         >
-                            <Image
-                                src={Logo}
+                            <img
+                                src="logo.png"
                                 className={styles.logo}
                                 alt="Logo company"
                             />

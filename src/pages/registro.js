@@ -4,7 +4,6 @@ import Layout from "../components/Layout";
 import { useProfile } from "../context/profileContext";
 import sweetAlert, { confirmationSwal } from "@/components/SweetAlert";
 import styles from "../styles/Registro.module.css";
-import Image from "next/image";
 import registerIMG from "../../public/registerImage.png";
 import Logo from "../../public/logo.png";
 import profile1 from "../../public/profile1.jpg";
@@ -70,9 +69,9 @@ export default function Registro() {
                         las caratulas, Regístrate para visualizar más
                         información de las películas
                     </p>
-                    <Image
+                    <img
                         className="responsive-img"
-                        src={registerIMG}
+                        src={"registerImage.png"}
                         alt="Imagen de películas populares"
                     />
                 </div>
@@ -84,8 +83,8 @@ export default function Registro() {
                                 styles.logoContainer
                             }
                         >
-                            <Image
-                                src={Logo}
+                            <img
+                                src={"logo.png"}
                                 className={styles.logo}
                                 alt="Logo company"
                             />
@@ -143,23 +142,23 @@ export default function Registro() {
                                 </h6>
                                 <div className="row">
                                     <div className="col s4">
-                                        <Image
+                                        <img
                                             alt="Profile picture 2"
-                                            src={profile1}
+                                            src={"profile1.jpg"}
                                             className="responsive-img"
                                         />
                                     </div>
                                     <div className="col s4">
-                                        <Image
+                                        <img
                                             alt="Profile picture 2"
-                                            src={profile2}
+                                            src={"profile2.jpg"}
                                             className="responsive-img"
                                         />
                                     </div>
                                     <div className="col s4">
-                                        <Image
+                                        <img
                                             alt="Profile picture 3"
-                                            src={profile3}
+                                            src={"profile3.jpg"}
                                             className={
                                                 "responsive-img " +
                                                 styles.profileIMG
