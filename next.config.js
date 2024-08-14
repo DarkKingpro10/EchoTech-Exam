@@ -5,9 +5,6 @@ const nextConfig = {
     API_KEY: process.env.API_KEY,
     IMG_ROUTE: process.env.IMG_ROUTE
   },
-  images: {
-    disableStaticImages: true,
-  },
 }
 
 module.exports = nextConfig
